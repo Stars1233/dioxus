@@ -3479,6 +3479,7 @@ dependencies = [
  "dioxus-rsx-hotreload",
  "dioxus-rsx-rosetta",
  "dirs",
+ "dunce",
  "env_logger 0.11.5",
  "escargot",
  "flate2",
@@ -3679,6 +3680,7 @@ name = "dioxus-desktop"
 version = "0.6.1"
 dependencies = [
  "async-trait",
+ "base64 0.22.1",
  "cocoa 0.25.0",
  "core-foundation 0.9.4",
  "dioxus",
@@ -7766,6 +7768,7 @@ dependencies = [
 name = "manganis-macro"
 version = "0.6.1"
 dependencies = [
+ "dunce",
  "manganis",
  "manganis-core",
  "proc-macro2",
@@ -10240,7 +10243,6 @@ dependencies = [
  "base64 0.22.1",
  "bytes",
  "encoding_rs",
- "futures-channel",
  "futures-core",
  "futures-util",
  "h2 0.4.7",
